@@ -26,8 +26,7 @@ public class ShapeCalculation {
 	choice=sc.nextByte();
 	}
 	catch(InputMismatchException ex) {
-		System.out.println("Input must be integer type or double  "+ex);
-		
+		ex.printStackTrace();
 		}
 	
 	
@@ -83,8 +82,7 @@ public class ShapeCalculation {
      status= sc.nextByte();
      }
      catch(InputMismatchException ex) {
-			System.out.println("Input must be integer type or double  "+ex);
-			
+			ex.printStackTrace();
 			}
   
 	}while( status==1);

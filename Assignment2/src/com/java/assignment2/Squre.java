@@ -21,8 +21,7 @@ public class Squre extends Shape {
 		}	
 		}
 		catch(InputMismatchException ex) {
-			System.out.println("Input must be integer type or double  "+ex);
-			
+			ex.printStackTrace();
 			}
 	}
 	@Override
